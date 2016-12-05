@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: automate_infra_base
+# Cookbook Name:: workflow_infra_base
 # Spec:: default
 #
 # Copyright 2016 Matt Stratton
@@ -19,7 +19,7 @@
 
 require 'spec_helper'
 
-describe 'automate_infra_base::default' do
+describe 'workflow_infra_base::default' do
   context 'When all attributes are default, on an unspecified platform' do
     let(:chef_run) do
       runner = ChefSpec::ServerRunner.new
